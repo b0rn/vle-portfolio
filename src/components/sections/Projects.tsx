@@ -24,6 +24,7 @@ const projects: Project[] = [
     key: "spa",
     techStack: [
       "Next.js",
+      "Tailwind CSS",
       "TypeScript",
       "Python",
       "FastAPI",
@@ -41,6 +42,7 @@ const projects: Project[] = [
     key: "chronolobe",
     techStack: [
       "Next.js",
+      "Tailwind CSS",
       "TypeScript",
       "Golang",
       "PostgreSQL",
