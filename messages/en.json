@@ -17,8 +17,8 @@
   },
   "about": {
     "title": "About Me",
-    "p1": "I'm a Cybersecurity Engineer with a Master's degree from Universit\u00e9 de Grenoble-Alpes and 4+ years of experience building secure, scalable applications. As a former Tech Lead & DevOps at Black Pearl, I led technical teams, architected production systems, and implemented security-first engineering practices.",
-    "p2": "My expertise spans full-stack development, cloud infrastructure, and security hardening. I'm passionate about clean architecture, automated testing, and building systems that scale.",
+    "p1": "I'm a Cybersecurity Engineer with a Master's degree from Université de Grenoble-Alpes and 4+ years of experience building secure, scalable applications. As a former Tech Lead & DevOps at Black Pearl, I led technical teams, architected production systems, and implemented security-first engineering practices.",
+    "p2": "My expertise spans full-stack development, system design, and security hardening. I'm passionate about clean architecture, automated testing, and building systems that scale.",
     "p3": "When I'm not writing code, I'm exploring new tools and staying ahead of the latest in cybersecurity and software engineering.",
     "stats": {
       "experience": "Years Experience",
