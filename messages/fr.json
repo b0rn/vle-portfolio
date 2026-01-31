@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "experience": "Expérience",
+    "education": "Formation",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis Victor Leveneur",
+    "title": "Spécialiste en Cybersécurité & Développeur Full-Stack",
+    "tagline": "Je construis des applications sécurisées et évolutives avec une architecture propre et des pratiques de niveau production. Ancien Tech Lead spécialisé en développement backend, DevOps et durcissement sécuritaire.",
+    "viewWork": "Voir mes projets",
+    "downloadResume": "Télécharger mon CV",
+    "contact": "Me contacter"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "p1": "Je suis Spécialiste en Cybersécurité diplômé d'un Master de l'Université de Grenoble-Alpes avec plus de 4 ans d'expérience dans la construction d'applications sécurisées et évolutives. En tant qu'ancien Tech Lead & DevOps chez Black Pearl, j'ai dirigé des équipes techniques, conçu des systèmes de production et mis en œuvre des pratiques d'ingénierie axées sur la sécurité.",
+    "p2": "Mon expertise couvre le développement full-stack, l'infrastructure cloud et le durcissement sécuritaire. Je suis passionné par l'architecture propre, les tests automatisés et la construction de systèmes évolutifs.",
+    "p3": "Quand je ne code pas, j'explore de nouveaux outils et je me tiens au courant des dernières avancées en cybersécurité et en ingénierie logicielle.",
+    "stats": {
+      "experience": "Années d'expérience",
+      "languages": "Langages de programmation",
+      "technologies": "Technologies maîtrisées",
+      "security": "Approche sécurité d'abord"
+    }
+  },
+  "skills": {
+    "title": "Compétences & Expertise",
+    "backend": "Développement Backend",
+    "frontend": "Développement Frontend",
+    "devops": "DevOps & Infrastructure",
+    "databases": "Bases de données",
+    "security": "Sécurité & Outils",
+    "beginner": "Débutant",
+    "intermediate": "Intermédiaire",
+    "advanced": "Avancé",
+    "expert": "Expert"
+  },
+  "projects": {
+    "title": "Projets en vedette",
+    "viewLive": "Voir en ligne",
+    "viewCode": "Voir le code",
+    "comingSoon": "Bientôt disponible",
+    "spa": {
+      "title": "Simple Portfolio App",
+      "tagline": "Gestion financière de portefeuille de niveau production",
+      "description": "Une application full-stack de gestion de portefeuille financier démontrant une architecture backend polyglotte, une architecture propre avec DDD, un déploiement Kubernetes, une couverture de tests de plus de 85%, et une conception axée sur la sécurité avec JWT et conformité OWASP Top 10.",
+      "demonstrates": "Développement full-stack, DevOps, Durcissement sécuritaire, Architecture propre, Programmation polyglotte"
+    },
+    "chronolobe": {
+      "title": "ChronoLobe",
+      "tagline": "Gestion des tâches et productivité",
+      "description": "Une application full-stack de gestion des tâches axée sur la productivité, avec une interface utilisateur réactive, une architecture backend modulaire, et des statistiques en temps réel pour le suivi des performances.",
+      "demonstrates": "Développement full-stack, DevOps, Architecture modulaire"
+    }
+  },
+  "experience": {
+    "title": "Expérience professionnelle",
+    "blackpearl": {
+      "company": "Black Pearl",
+      "role": "Tech Lead & DevOps",
+      "period": "2022 - 2025",
+      "description": "Direction d'équipes techniques sur des projets internes et externes. Conception et déploiement de systèmes de production, mise en œuvre de SIEM et de pratiques de durcissement sécuritaire, réduction des coûts opérationnels par l'automatisation.",
+      "tech": "Apex, Python, Go, JavaScript, Kubernetes, Docker, AWS"
+    },
+    "lynred": {
+      "company": "LYNRED",
+      "role": "Apprenti Cybersécurité",
+      "period": "2020 - 2021",
+      "description": "Intégration d'outils de cybersécurité dans les systèmes de défense. Réalisation d'évaluations de menaces et de vulnérabilités, développement d'environnements IT sécurisés et mise en œuvre de solutions de surveillance de sécurité.",
+      "tech": "Outils de sécurité, Durcissement réseau, SIEM, Windows, Linux"
+    },
+    "rpa": {
+      "company": "Réunion Pièces Agricoles",
+      "role": "Développeur Backend",
+      "period": "2019",
+      "description": "Développement d'APIs REST évolutives avec Node.js, gestion de serveurs Debian et configuration Nginx, optimisation de bases de données MongoDB pour des charges de production.",
+      "tech": "Node.js, MongoDB, Nginx, Debian"
+    },
+     "lim": {
+      "company": "Laboratoire d'Informatique et de Mathématiques (LIM)",
+      "role": "Stage de recherche",
+      "period": "2018",
+      "description": "Recherche et implémentation de techniques de débruitage de séries temporelles utilisant des algorithmes de machine learning. Conception de protocoles expérimentaux avec l'algorithme 1-NN et documentation des résultats dans un rapport de recherche LaTeX.",
+      "tech": "Python, numpy, pandas, matplotlib, scikit-learn, LaTeX"
+    }
+  },
+  "education": {
+    "title": "Formation",
+    "m2": {
+      "degree": "M2 : Cybersécurité et Informatique Légale",
+      "school": "Université de Grenoble-Alpes",
+      "location": "Grenoble, France",
+      "year": "2021"
+    },
+    "bachelor": {
+      "degree": "Licence : Informatique",
+      "school": "Université de la Réunion",
+      "location": "Île de la Réunion",
+      "year": "2019"
+    }
+  },
+  "contact": {
+    "title": "Travaillons ensemble",
+    "subtitle": "Je suis toujours intéressé par de nouvelles opportunités, des projets stimulants et des collaborations. Que vous ayez besoin d'un spécialiste backend, d'un consultant en sécurité ou d'un tech lead, discutons-en.",
+    "email": "M'envoyer un email",
+    "downloadResume": "Télécharger mon CV"
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 Victor Leveneur. Tous droits réservés.",
+    "builtWith": "Construit avec Next.js, TypeScript et shadcn/ui",
+    "availableIn": "Disponible en anglais et en français"
+  },
+  "theme": {
+    "toggle": "Changer de thème"
+  },
+  "language": {
+    "english": "English",
+    "french": "Français"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Victor Leveneur",
+    "title": "Cybersecurity Engineer & Full-Stack Developer",
+    "tagline": "I build secure, scalable applications with clean architecture and production-grade engineering. Former Tech Lead specializing in backend development, DevOps, and security hardening.",
+    "viewWork": "View My Work",
+    "downloadResume": "Download Resume",
+    "contact": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I'm a Cybersecurity Engineer with a Master's degree from Universit\u00e9 de Grenoble-Alpes and 4+ years of experience building secure, scalable applications. As a former Tech Lead & DevOps at Black Pearl, I led technical teams, architected production systems, and implemented security-first engineering practices.",
+    "p2": "My expertise spans full-stack development, cloud infrastructure, and security hardening. I'm passionate about clean architecture, automated testing, and building systems that scale.",
+    "p3": "When I'm not writing code, I'm exploring new tools and staying ahead of the latest in cybersecurity and software engineering.",
+    "stats": {
+      "experience": "Years Experience",
+      "languages": "Programming Languages",
+      "technologies": "Technologies Mastered",
+      "security": "Security-First Mindset"
+    }
+  },
+  "skills": {
+    "title": "Skills & Expertise",
+    "backend": "Backend Development",
+    "frontend": "Frontend Development",
+    "devops": "DevOps & Infrastructure",
+    "databases": "Databases",
+    "security": "Security & Tools",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "expert": "Expert"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "viewLive": "View Live",
+    "viewCode": "View Code",
+    "comingSoon": "Coming Soon",
+    "spa": {
+      "title": "Simple Portfolio App",
+      "tagline": "Production-grade financial portfolio management",
+      "description": "A full-stack financial portfolio management application demonstrating polyglot backend architecture, clean architecture with DDD, Kubernetes deployment, 85%+ test coverage, and security-first design with JWT auth and OWASP Top 10 compliance.",
+      "demonstrates": "Full-stack development, DevOps, Security hardening, Clean Architecture, Polyglot programming"
+    },
+    "placeholder1": {
+      "title": "Security Audit Toolkit",
+      "tagline": "Automated vulnerability assessment",
+      "description": "An automated security scanning and reporting toolkit for web applications, integrating multiple scanning engines with a unified dashboard and actionable remediation guidance."
+    },
+    "placeholder2": {
+      "title": "Infrastructure as Code Platform",
+      "tagline": "Multi-cloud deployment automation",
+      "description": "A platform for managing and deploying infrastructure across multiple cloud providers using Terraform and Ansible, with built-in compliance checks and cost optimization."
+    }
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "blackpearl": {
+      "company": "Black Pearl",
+      "role": "Tech Lead & DevOps",
+      "period": "2022 - 2025",
+      "description": "Led technical teams across internal and external projects. Architected and deployed production systems, implemented SIEM and security hardening practices, and reduced operational costs through automation.",
+      "tech": "Java, Python, Go, JavaScript, Kubernetes, Docker, AWS"
+    },
+    "lynred": {
+      "company": "LYNRED",
+      "role": "Cybersecurity Apprentice",
+      "period": "2020 - 2021",
+      "description": "Integrated cybersecurity tools in defense systems. Conducted threat and vulnerability assessments, developed secure IT environments, and implemented security monitoring solutions.",
+      "tech": "Security tools, Network hardening, SIEM"
+    },
+    "rpa": {
+      "company": "R\u00e9union Pi\u00e8ces Agricoles",
+      "role": "Backend Developer",
+      "period": "2019",
+      "description": "Developed scalable REST APIs with Node.js, managed Debian servers and Nginx configuration, and optimized MongoDB databases for production workloads.",
+      "tech": "Node.js, MongoDB, Nginx, Debian"
+    },
+    "lim": {
+      "company": "Laboratory of Informatics and Mathematics",
+      "role": "Research Intern",
+      "period": "2018",
+      "description": "Researched and implemented time series denoising techniques using machine learning algorithms. Designed experimental protocols with 1-NN algorithm and documented findings in a comprehensive LaTeX research report.",
+      "tech": "Python, numpy, pandas, matplotlib, scikit-learn, LaTeX"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "m2": {
+      "degree": "M2: Cybersecurity & Digital Forensics",
+      "school": "Universit\u00e9 de Grenoble-Alpes",
+      "location": "Grenoble, France",
+      "year": "2021"
+    },
+    "m1": {
+      "degree": "M1: Computer Science",
+      "school": "Universit\u00e9 de Grenoble-Alpes",
+      "location": "Grenoble, France",
+      "year": "2020"
+    },
+    "bachelor": {
+      "degree": "Bachelor: Computer Science",
+      "school": "Universit\u00e9 de la R\u00e9union",
+      "location": "\u00cele de la R\u00e9union",
+      "year": "2019"
+    }
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "I'm always interested in hearing about new opportunities, challenging projects, and collaborations. Whether you need a backend engineer, a security consultant, or a tech lead, let's talk.",
+    "email": "Email Me",
+    "downloadResume": "Download Resume"
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 Victor Leveneur. All rights reserved.",
+    "builtWith": "Built with Next.js, TypeScript, and shadcn/ui",
+    "availableIn": "Available in English and French"
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "english": "English",
+    "french": "Fran\u00e7ais"
+  }
+}
