@@ -34,7 +34,7 @@
     "devops": "DevOps & Infrastructure",
     "databases": "Bases de données",
     "security": "Sécurité & Outils",
-    "other" : "Autres compétences",
+    "others" : "Autres compétences",
     "soft" : "Compétences non techniques",
     "soft_details": {
       "teamLeadership": {
