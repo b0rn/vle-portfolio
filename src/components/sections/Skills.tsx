@@ -34,6 +34,7 @@ const skillCategories: SkillCategory[] = [
     skills: [
       { name: "TypeScript", level: "expert" },
       { name: "React / Next.js", level: "intermediate", details: "App Router, RSC" },
+      { name: "React Native", level: "intermediate", details: "Expo, React Navigation" },
       { name: "Tailwind CSS", level: "intermediate" },
       { name: "TanStack Query", level: "intermediate" },
     ],
