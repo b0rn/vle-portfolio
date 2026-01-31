@@ -50,15 +50,11 @@
       "description": "A full-stack financial portfolio management application demonstrating polyglot backend architecture, clean architecture with DDD, Kubernetes deployment, 85%+ test coverage, and security-first design with JWT auth and OWASP Top 10 compliance.",
       "demonstrates": "Full-stack development, DevOps, Security hardening, Clean Architecture, Polyglot programming"
     },
-    "placeholder1": {
-      "title": "Security Audit Toolkit",
-      "tagline": "Automated vulnerability assessment",
-      "description": "An automated security scanning and reporting toolkit for web applications, integrating multiple scanning engines with a unified dashboard and actionable remediation guidance."
-    },
-    "placeholder2": {
-      "title": "Infrastructure as Code Platform",
-      "tagline": "Multi-cloud deployment automation",
-      "description": "A platform for managing and deploying infrastructure across multiple cloud providers using Terraform and Ansible, with built-in compliance checks and cost optimization."
+     "chronolobe": {
+      "title": "ChronoLobe",
+      "tagline": "Task and productivity management",
+      "description": "A full-stack task management application focused on productivity, with a responsive user interface, modular backend architecture, and real-time performance tracking.",
+      "demonstrates": "Full-stack development, DevOps, Modular backend architecture"
     }
   },
   "experience": {
