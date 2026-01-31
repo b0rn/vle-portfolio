@@ -6,9 +6,11 @@ import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
 
 interface Skill {
-  name: string;
+  name?: string;
   level: "beginner" | "intermediate" | "advanced" | "expert";
   details?: string;
+  translateNameKey?: string;
+  translateDetailsKey?: string;
 }
 
 interface SkillCategory {
@@ -24,8 +26,8 @@ const skillCategories: SkillCategory[] = [
       { name: "Go", level: "expert", details: "stdlib, gin, sqlc" },
       { name: "Java", level: "intermediate", details: "Spring Boot, Hibernate" },
       { name: "Node.js", level: "expert", details: "Fastify, Express, NestJS" },
-      { name: "PHP", level: "intermediate", details: "Laravel, Symfony" },
-      { name: "C", level: "intermediate", details: "SDL2" },
+      { name: "PHP", level: "intermediate", details: "Symfony" },
+      { name: "C", level: "advanced", details: "SDL2" },
       { name: "C++", level: "intermediate", details: "OpenGL" },
     ],
   },
@@ -44,7 +46,7 @@ const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Kubernetes", level: "intermediate" },
       { name: "Docker", level: "intermediate" },
-      { name: "AWS", level: "intermediate", details: "EC2, Lambda, S3, Amazon Cognito, ELB, CodeBuild, CodeDeploy" },
+      { name: "AWS", level: "advanced", details: "CloudFormation, EC2, Lambda, S3, Amazon Cognito, ELB, CodeBuild, CodeDeploy" },
       { name: "GitHub Actions", level: "advanced" },
     ],
   },
@@ -60,12 +62,46 @@ const skillCategories: SkillCategory[] = [
   {
     key: "security",
     skills: [
-      { name: "SIEM", level: "advanced", details : "Elastic Suite" },
+      { name: "SIEM", level: "advanced", details: "Elastic Suite" },
       { name: "ISO 27001", level: "intermediate" },
       { name: "OWASP Top 10", level: "intermediate" },
       { name: "Snyk / SonarQube", level: "intermediate" },
     ],
   },
+  {
+    key: "others",
+    skills: [
+      { name: "Git", level: "advanced" },
+      { name: "Linux", level: "advanced" },
+      { name: "Agile Methodologies", level: "advanced", details: "Scrum, Kanban" },
+      { name: "Testing", level: "advanced", details: "Unit Testing, Integration Testing, E2E Testing" },
+      { name: "CI/CD", level: "advanced" },
+      { name: "RESTful APIs", level: "expert" },
+      { name: "GraphQL", level: "intermediate" },
+      { name: "gRPC", level: "beginner" },
+      { name: "Message Brokers", level: "intermediate", details: "RabbitMQ, NATS" },
+      { name: "Firewall", level: "advanced", details: "OPNSense, Sophos UTM9" },
+      { name: "Virtualization", level: "intermediate", details: "VMware ESXi" },
+      { name: "Monitoring", level: "intermediate", details: "Prometheus, Grafana, Elastic Suite" },
+      { name: "Shopify", level: "intermediate", details: "API integration (GraphQL, REST)" },
+      { name: "CRM", level: "intermediate", details: "Salesforce, Odoo" },
+      { name: "ERP", level: "intermediate", details: "Odoo, Sage X3" },
+      { name: "Backup", level: "intermediate", details: "Veeam Backup" },
+    ],
+  },
+  {
+    key: "soft",
+    skills: [
+      { translateNameKey: "soft_details.communication.name", level: "advanced", translateDetailsKey: "soft_details.communication.details" },
+      { translateNameKey: "soft_details.teamLeadership.name", level: "advanced", translateDetailsKey: "soft_details.teamLeadership.details" },
+      { translateNameKey: "soft_details.problemSolving.name", level: "expert", translateDetailsKey: "soft_details.problemSolving.details" },
+      { translateNameKey: "soft_details.timeManagement.name", level: "advanced", translateDetailsKey: "soft_details.timeManagement.details" },
+      { translateNameKey: "soft_details.adaptability.name", level: "expert", translateDetailsKey: "soft_details.adaptability.details" },
+      { translateNameKey: "soft_details.collaboration.name", level: "advanced", translateDetailsKey: "soft_details.collaboration.details" },
+      { translateNameKey: "soft_details.criticalThinking.name", level: "expert", translateDetailsKey: "soft_details.criticalThinking.details" },
+      { translateNameKey: "soft_details.resilience.name", level: "expert", translateDetailsKey: "soft_details.resilience.details" },
+    ],
+  }
 ];
 
 const levelColor = {
@@ -104,17 +140,25 @@ export function Skills() {
                     className="glass rounded-lg p-4 hover:scale-[1.02] transition-transform duration-200"
                   >
                     <div className="flex items-center justify-between mb-1">
-                      <span className="font-medium text-sm">{skill.name}</span>
+                      
+                      <span className="font-medium text-sm">
+                        {skill.translateNameKey ? t(skill.translateNameKey) : skill.name}
+                      </span>
                       <Badge
                         variant="outline"
                         className={`text-xs ${levelColor[skill.level]}`}
                       >
-                        {t(skill.level)}
+                        {t(`levels.${skill.level}`)}
                       </Badge>
                     </div>
                     {skill.details && (
                       <p className="text-xs text-muted-foreground">
                         {skill.details}
+                      </p>
+                    )}
+                    {skill.translateDetailsKey && (
+                      <p className="text-xs text-muted-foreground">
+                        {t(skill.translateDetailsKey)}
                       </p>
                     )}
                   </motion.div>

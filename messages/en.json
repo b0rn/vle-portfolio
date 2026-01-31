@@ -34,10 +34,48 @@
     "devops": "DevOps & Infrastructure",
     "databases": "Databases",
     "security": "Security & Tools",
-    "beginner": "Beginner",
-    "intermediate": "Intermediate",
-    "advanced": "Advanced",
-    "expert": "Expert"
+    "other" : "Other Skills",
+    "soft" : "Soft Skills",
+    "soft_details": {
+      "teamLeadership": {
+        "name": "Team Leadership",
+        "details": "Leading technical teams and projects"
+      },
+      "communication": {
+        "name": "Communication",
+        "details": "Effective verbal and written communication skills"
+      },
+      "problemSolving": {
+        "name": "Problem Solving",
+        "details": "Strong analytical and troubleshooting abilities"
+      },
+      "timeManagement": { 
+        "name": "Time Management",
+        "details": "Efficiently manage multiple tasks and deadlines"
+      },
+      "adaptability": {
+        "name": "Adaptability",
+        "details": "Quickly learn new technologies and adapt to changing environments"
+      },
+      "collaboration": {
+        "name": "Collaboration",
+        "details": "Work well in team settings and cross-functional projects"
+      },
+      "criticalThinking": {
+        "name": "Critical Thinking",
+        "details": "Evaluate situations and make informed decisions"
+      },
+      "resilience": {
+        "name": "Resilience",
+        "details": "Maintain performance under pressure and recover from setbacks"
+      }
+    },
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "expert": "Expert"
+    }
   },
   "projects": {
     "title": "Featured Projects",
@@ -50,7 +88,7 @@
       "description": "A full-stack financial portfolio management application demonstrating polyglot backend architecture, clean architecture with DDD, Kubernetes deployment, 85%+ test coverage, and security-first design with JWT auth and OWASP Top 10 compliance.",
       "demonstrates": "Full-stack development, DevOps, Security hardening, Clean Architecture, Polyglot programming"
     },
-     "chronolobe": {
+    "chronolobe": {
       "title": "ChronoLobe",
       "tagline": "Task and productivity management",
       "description": "A full-stack task management application focused on productivity, with a responsive user interface, modular backend architecture, and real-time performance tracking.",

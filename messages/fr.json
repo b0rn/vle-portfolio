@@ -34,10 +34,48 @@
     "devops": "DevOps & Infrastructure",
     "databases": "Bases de données",
     "security": "Sécurité & Outils",
-    "beginner": "Débutant",
-    "intermediate": "Intermédiaire",
-    "advanced": "Avancé",
-    "expert": "Expert"
+    "other" : "Autres compétences",
+    "soft" : "Compétences non techniques",
+    "soft_details": {
+      "teamLeadership": {
+        "name": "Leadership d'équipe",
+        "details": "Direction d'équipes techniques et de projets"
+      },
+      "communication": {
+        "name": "Communication",
+        "details": "Compétences efficaces en communication verbale et écrite"
+      },
+      "problemSolving": {
+        "name": "Résolution de problèmes",
+        "details": "Solides capacités d'analyse et de dépannage"
+      },
+      "timeManagement": { 
+        "name": "Gestion du temps",
+        "details": "Gestion efficace de multiples tâches et délais"
+      },
+      "adaptability": {
+        "name": "Adaptabilité",
+        "details": "Apprentissage rapide de nouvelles technologies et adaptation aux environnements changeants"
+      },
+      "collaboration": {
+        "name": "Collaboration",
+        "details": "Bon travail en équipe et dans des projets interfonctionnels"
+      },
+      "criticalThinking": {
+        "name": "Pensée critique",
+        "details": "Évaluation des situations et prise de décisions éclairées"
+      },
+      "resilience": {
+        "name": "Résilience",
+        "details": "Maintien de la performance sous pression et récupération après des revers"
+      }
+    },
+    "levels" : {
+      "beginner": "Débutant",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé",
+      "expert": "Expert"
+    }
   },
   "projects": {
     "title": "Projets en vedette",
