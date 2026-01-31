@@ -129,21 +129,15 @@
   "education": {
     "title": "Education",
     "m2": {
-      "degree": "M2: Cybersecurity & Digital Forensics",
-      "school": "Universit\u00e9 de Grenoble-Alpes",
+      "degree": "Master's Degree (M2): Cybersecurity & Digital Forensics",
+      "school": "Université de Grenoble-Alpes",
       "location": "Grenoble, France",
       "year": "2021"
     },
-    "m1": {
-      "degree": "M1: Computer Science",
-      "school": "Universit\u00e9 de Grenoble-Alpes",
-      "location": "Grenoble, France",
-      "year": "2020"
-    },
     "bachelor": {
       "degree": "Bachelor: Computer Science",
-      "school": "Universit\u00e9 de la R\u00e9union",
-      "location": "\u00cele de la R\u00e9union",
+      "school": "Université de la Réunion",
+      "location": "Île de la Réunion",
       "year": "2019"
     }
   },
