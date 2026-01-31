@@ -24,16 +24,10 @@ export function Contact() {
 
         <AnimatedSection delay={0.1}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
-            <Button size="lg" asChild className="px-8">
+            <Button size="lg" asChild className="px-8 cursor-pointer">
               <a href="mailto:victor.leveneur@proton.me">
                 <Mail className="mr-2 h-4 w-4" />
                 {t("email")}
-              </a>
-            </Button>
-            <Button size="lg" variant="outline" asChild className="px-8">
-              <a href={locale === "fr" ? "/resume-fr.pdf" : "/resume-en.pdf"}>
-                <Download className="mr-2 h-4 w-4" />
-                {t("downloadResume")}
               </a>
             </Button>
           </div>
