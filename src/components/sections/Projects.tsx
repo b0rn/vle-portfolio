@@ -32,7 +32,7 @@ const projects: Project[] = [
       "Docker",
       "GitHub Actions",
     ],
-    liveUrl: "https://spa.chronolobe.app",
+    liveUrl: "https://spa.demos.vleveneur.com",
     githubUrl: "https://github.com/b0rn/simple-portfolio-mgt",
     featured: true,
     screenshotUrl: "/projects/spa.png",
