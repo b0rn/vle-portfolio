@@ -22,10 +22,10 @@ const skillCategories: SkillCategory[] = [
   {
     key: "backend",
     skills: [
-      { name: "Python", level: "expert", details: "FastAPI, Django, Flask, SQLAlchemy" },
-      { name: "Go", level: "expert", details: "stdlib, gin, sqlc" },
-      { name: "Java", level: "intermediate", details: "Spring Boot, Hibernate" },
-      { name: "Node.js", level: "expert", details: "Fastify, Express, NestJS" },
+      { name: "Python", level: "expert", details: "FastAPI, SQLAlchemy" },
+      { name: "Go", level: "expert", details: "stdlib, go-restful, sqlc, mkit" },
+      { name: "Java", level: "intermediate" },
+      { name: "Node.js", level: "expert", details: "Express" },
       { name: "PHP", level: "intermediate", details: "Symfony" },
       { name: "C", level: "advanced", details: "SDL2" },
       { name: "C++", level: "intermediate", details: "OpenGL" },
@@ -44,8 +44,8 @@ const skillCategories: SkillCategory[] = [
   {
     key: "devops",
     skills: [
-      { name: "Kubernetes", level: "intermediate" },
-      { name: "Docker", level: "intermediate" },
+      { name: "Kubernetes", level: "intermediate", details: "microk8s, Helm" },
+      { name: "Docker", level: "intermediate", details: "Docker Compose, multi-stage builds" },
       { name: "AWS", level: "advanced", details: "CloudFormation, EC2, Lambda, S3, Amazon Cognito, ELB, CodeBuild, CodeDeploy" },
       { name: "GitHub Actions", level: "advanced" },
     ],
