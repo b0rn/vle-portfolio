@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "title": "Victor Leveneur - Développeur Backend Senior",
+    "description": "Portfolio de Victor Leveneur, développeur backend senior spécialisé dans les applications sécurisées, évolutives et l'architecture propre.",
+    "ogDescription": "Applications sécurisées et évolutives avec une architecture propre et des pratiques d'ingénierie de niveau production."
+  },
   "nav": {
     "about": "À propos",
     "skills": "Compétences",

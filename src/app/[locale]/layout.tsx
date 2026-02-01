@@ -1,9 +1,10 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { ThemeProvider } from "next-themes";
 import { routing } from "@/i18n/routing";
+import type { Metadata } from "next";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -16,8 +17,54 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const BASE_URL = "https://vleveneur.com";
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "metadata" });
+
+  const alternates: Record<string, string> = {};
+  for (const l of routing.locales) {
+    alternates[l] = `${BASE_URL}/${l}`;
+  }
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    authors: [{ name: "Victor Leveneur" }],
+    creator: "Victor Leveneur",
+    metadataBase: new URL(BASE_URL),
+    alternates: {
+      canonical: `${BASE_URL}/${locale}`,
+      languages: alternates,
+    },
+    openGraph: {
+      title: t("title"),
+      description: t("ogDescription"),
+      url: `${BASE_URL}/${locale}`,
+      siteName: "Victor Leveneur",
+      locale: locale === "fr" ? "fr_FR" : "en_US",
+      alternateLocale: locale === "fr" ? "en_US" : "fr_FR",
+      type: "website",
+    },
+    twitter: {
+      card: "summary",
+      title: t("title"),
+      description: t("ogDescription"),
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
 }
 
 export default async function LocaleLayout({
