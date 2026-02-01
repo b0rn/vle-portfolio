@@ -6,10 +6,10 @@ import { AnimatedSection } from "@/components/custom/AnimatedSection";
 import { Code, Server, Languages, Lock } from "lucide-react";
 
 const stats = [
-  { key: "experience", value: "4+", icon: Code },
-  { key: "languages", value: "5+", icon: Languages },
-  { key: "technologies", value: "10+", icon: Server },
-  { key: "security", value: "100%", icon: Lock },
+  { key: "experience", valueKey: "experienceValue", icon: Code },
+  { key: "lines", valueKey: "linesValue", icon: Languages },
+  { key: "headOfIt", valueKey: "headOfItValue", icon: Server },
+  { key: "security", valueKey: "securityValue", icon: Lock },
 ] as const;
 
 export function About() {
@@ -48,14 +48,14 @@ export function About() {
 
           <AnimatedSection delay={0.2}>
             <div className="grid grid-cols-2 gap-4">
-              {stats.map(({ key, value, icon: Icon }) => (
+              {stats.map(({ key, valueKey, icon: Icon }) => (
                 <div
                   key={key}
                   className="glass rounded-xl p-6 text-center hover:scale-105 transition-transform duration-300"
                 >
                   <Icon className="h-6 w-6 mx-auto mb-3 text-primary" />
                   <div className="text-3xl font-bold gradient-text mb-1">
-                    {value}
+                    {t(`stats.${valueKey}`)}
                   </div>
                   <div className="text-sm text-muted-foreground">
                     {t(`stats.${key}`)}

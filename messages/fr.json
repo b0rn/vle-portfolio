@@ -9,22 +9,25 @@
   },
   "hero": {
     "greeting": "Bonjour, je suis Victor Leveneur",
-    "title": "Développeur Full-Stack spécialisé en Cybersécurité",
+    "title": "Spécialiste Backend Senior spécialisé en Cybersécurité & Infrastructure",
     "tagline": "Je construis des applications sécurisées et évolutives avec une architecture propre et des pratiques de niveau production. Ancien Tech Lead spécialisé en développement backend, DevOps et durcissement sécuritaire.",
     "viewWork": "Voir mes projets",
-    "downloadResume": "Télécharger mon CV",
     "contact": "Me contacter"
   },
   "about": {
     "title": "À propos de moi",
-    "p1": "Je suis Spécialiste en Cybersécurité diplômé d'un Master de l'Université de Grenoble-Alpes avec plus de 4 ans d'expérience dans la construction d'applications sécurisées et évolutives. En tant qu'ancien Tech Lead & DevOps chez Black Pearl, j'ai dirigé des équipes techniques, conçu des systèmes de production et mis en œuvre des pratiques d'ingénierie axées sur la sécurité.",
-    "p2": "Mon expertise couvre le développement full-stack, le design de systèmes et le durcissement sécuritaire. Je suis passionné par l'architecture propre, les tests automatisés et la construction de systèmes évolutifs.",
+    "p1": "Je suis un spécialiste backend senior diplômé d'un Master de l'Université de Grenoble-Alpes avec plus de 4 ans d'expérience dans la construction d'applications sécurisées et évolutives. En tant qu'ancien Tech Lead & DevOps chez Black Pearl, j'ai dirigé des équipes techniques, conçu des systèmes de production et mis en œuvre des pratiques d'ingénierie axées sur la sécurité.",
+    "p2": "Mon expertise couvre le développement backend (Go, Python, Node.js), le design de systèmes et le durcissement sécuritaire. Je suis passionné par l'architecture propre, les tests automatisés et la construction de systèmes évolutifs.",
     "p3": "Quand je ne code pas, j'explore de nouveaux outils et je me tiens au courant des dernières avancées en cybersécurité et en ingénierie logicielle.",
     "stats": {
-      "experience": "Années d'expérience",
-      "languages": "Langages de programmation",
-      "technologies": "Technologies maîtrisées",
-      "security": "Approche sécurité d'abord"
+      "experience": "D'expérience en programmation",
+      "experienceValue": "15 ans",
+      "lines" : "Lignes de code écrites en Go",
+      "linesValue": "10k+",
+      "headOfIt": "En tant que responsable IT",
+      "headOfItValue": "3 ans",
+      "security": "D'expérience en sécurité",
+      "securityValue": "4 ans"
     }
   },
   "skills": {
