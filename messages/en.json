@@ -27,7 +27,7 @@
     "stats": {
       "experience": "Programming experience",
       "experienceValue": "15 ans",
-      "lines" : "Lines of Go code written",
+      "lines": "Lines of Go code written",
       "linesValue": "10k+",
       "headOfIt": "As Head of IT",
       "headOfItValue": "3 years",
@@ -42,8 +42,8 @@
     "devops": "DevOps & Infrastructure",
     "databases": "Databases",
     "security": "Security & Tools",
-    "others" : "Other Skills",
-    "soft" : "Soft Skills",
+    "others": "Other Skills",
+    "soft": "Soft Skills",
     "soft_details": {
       "teamLeadership": {
         "name": "Team Leadership",
@@ -57,7 +57,7 @@
         "name": "Problem Solving",
         "details": "Strong analytical and troubleshooting abilities"
       },
-      "timeManagement": { 
+      "timeManagement": {
         "name": "Time Management",
         "details": "Efficiently manage multiple tasks and deadlines"
       },
@@ -166,5 +166,10 @@
   "language": {
     "english": "English",
     "french": "Fran\u00e7ais"
+  },
+  "CookieConsent": {
+    "message": "We use cookies for analytics to improve your experience. The authentication cookie is required for the service to function.",
+    "accept": "Accept",
+    "decline": "Decline"
   }
 }

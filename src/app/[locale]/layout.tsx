@@ -6,6 +6,7 @@ import { ThemeProvider } from "next-themes";
 import { routing } from "@/i18n/routing";
 import type { Metadata } from "next";
 import "../globals.css";
+import { CookieConsentBanner } from "@/components/custom/CookieConsent";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -93,7 +94,10 @@ export default async function LocaleLayout({
           enableSystem={false}
           disableTransitionOnChange={false}
         >
-          <NextIntlClientProvider>{children}</NextIntlClientProvider>
+          <NextIntlClientProvider>
+            {children}
+            <CookieConsentBanner />
+          </NextIntlClientProvider>
         </ThemeProvider>
       </body>
     </html>

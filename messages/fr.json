@@ -27,7 +27,7 @@
     "stats": {
       "experience": "D'expérience en programmation",
       "experienceValue": "15 ans",
-      "lines" : "Lignes de code écrites en Go",
+      "lines": "Lignes de code écrites en Go",
       "linesValue": "10k+",
       "headOfIt": "En tant que responsable IT",
       "headOfItValue": "3 ans",
@@ -42,8 +42,8 @@
     "devops": "DevOps & Infrastructure",
     "databases": "Bases de données",
     "security": "Sécurité & Outils",
-    "others" : "Autres compétences",
-    "soft" : "Compétences non techniques",
+    "others": "Autres compétences",
+    "soft": "Compétences non techniques",
     "soft_details": {
       "teamLeadership": {
         "name": "Leadership d'équipe",
@@ -57,7 +57,7 @@
         "name": "Résolution de problèmes",
         "details": "Solides capacités d'analyse et de dépannage"
       },
-      "timeManagement": { 
+      "timeManagement": {
         "name": "Gestion du temps",
         "details": "Gestion efficace de multiples tâches et délais"
       },
@@ -78,7 +78,7 @@
         "details": "Maintien de la performance sous pression et récupération après des revers"
       }
     },
-    "levels" : {
+    "levels": {
       "beginner": "Débutant",
       "intermediate": "Intermédiaire",
       "advanced": "Avancé",
@@ -126,7 +126,7 @@
       "description": "Développement d'APIs REST évolutives avec Node.js, gestion de serveurs Debian et configuration Nginx, optimisation de bases de données MongoDB pour des charges de production.",
       "tech": "Node.js, MongoDB, Nginx, Debian"
     },
-     "lim": {
+    "lim": {
       "company": "Laboratoire d'Informatique et de Mathématiques (LIM)",
       "role": "Stage de recherche",
       "period": "2018",
@@ -166,5 +166,10 @@
   "language": {
     "english": "English",
     "french": "Français"
+  },
+  "CookieConsent": {
+    "message": "Nous utilisons des cookies analytiques pour améliorer votre expérience. Le cookie d'authentification est nécessaire au fonctionnement du service.",
+    "accept": "Accepter",
+    "decline": "Refuser"
   }
 }
