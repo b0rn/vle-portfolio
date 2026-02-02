@@ -39,7 +39,7 @@ export function About() {
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <AnimatedSection delay={0.1}>
-            <div className="space-y-4 text-muted-foreground leading-relaxed">
+            <div className="space-y-4 text-muted-foreground leading-relaxed text-justify">
               <p>{t("p1")}</p>
               <p>{t("p2")}</p>
               <p>{t("p3")}</p>

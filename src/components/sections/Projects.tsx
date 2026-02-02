@@ -121,7 +121,7 @@ export function Projects() {
                   <p className="text-sm text-primary mb-3">
                     {t(`${project.key}.tagline`)}
                   </p>
-                  <p className="text-sm text-muted-foreground mb-4 flex-1">
+                  <p className="text-sm text-muted-foreground mb-4 flex-1 text-justify">
                     {t(`${project.key}.description`)}
                   </p>
 
