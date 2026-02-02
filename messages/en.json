@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Victor Leveneur - Senior Backend Developer specializing in Cybersecurity & Infrastructure",
-    "description": "Portfolio of Victor Leveneur, a Senior Backend Developer specializing in secure, scalable applications with clean architecture.",
+    "title": "Victor Leveneur - Backend Developer specializing in Cybersecurity & Infrastructure",
+    "description": "Portfolio of Victor Leveneur, a Backend Developer specializing in secure, scalable applications with clean architecture.",
     "ogDescription": "Building secure, scalable applications with clean architecture and production-grade engineering."
   },
   "nav": {
@@ -14,14 +14,14 @@
   },
   "hero": {
     "greeting": "Hi, I'm Victor Leveneur",
-    "title": "Senior Backend Engineer specializing in Cybersecurity & Infrastructure",
+    "title": "Backend Engineer specializing in Cybersecurity & Infrastructure",
     "tagline": "I build secure, scalable applications with clean architecture and production-grade engineering. Former Tech Lead specializing in backend development, DevOps, and security hardening.",
     "viewWork": "View My Work",
     "contact": "Contact Me"
   },
   "about": {
     "title": "About Me",
-    "p1": "I'm a Senior Backend Engineer with a Master's in Cybersecurity from Université de Grenoble-Alpes and 4+ years of experience building secure, scalable applications. As a former Tech Lead & DevOps at Black Pearl, I led technical teams, architected production systems, and implemented security-first engineering practices.",
+    "p1": "I'm a Backend Engineer with a Master's in Cybersecurity from Université de Grenoble-Alpes and 4+ years of experience building secure, scalable applications. As a former Tech Lead & DevOps at Black Pearl, I led technical teams, architected production systems, and implemented security-first engineering practices.",
     "p2": "My expertise spans backend development (Go, Python, Node.js), system design, and security hardening. I'm passionate about Domain-Driven Design, clean architecture, and building systems that handle scale.",
     "p3": "When I'm not writing code, I'm exploring new tools and staying ahead of the latest in cybersecurity and software engineering.",
     "stats": {
