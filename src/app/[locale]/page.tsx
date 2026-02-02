@@ -27,7 +27,7 @@ export default async function Home({
     url: `https://vleveneur.com/${locale}`,
     jobTitle: t("title").split(" - ")[1],
     description: t("description"),
-    email: "victor.leveneur@proton.me",
+    email: "contact@vleveneur.com",
     sameAs: [
       "https://github.com/b0rn",
       "https://gitlab.com/b0rn",

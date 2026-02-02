@@ -70,7 +70,7 @@ export function Hero() {
             asChild
             className="px-8 cursor-pointer"
           >
-            <a href="mailto:victor.leveneur@proton.me">
+            <a href="mailto:contact@vleveneur.com">
               <Mail className="mr-2 h-4 w-4" />
               {t("contact")}
             </a>
