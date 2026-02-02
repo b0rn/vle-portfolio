@@ -168,7 +168,7 @@
     "french": "Français"
   },
   "CookieConsent": {
-    "message": "Nous utilisons des cookies analytiques pour améliorer votre expérience. Le cookie d'authentification est nécessaire au fonctionnement du service.",
+    "message": "Nous utilisons des cookies analytiques pour améliorer votre expérience.",
     "accept": "Accepter",
     "decline": "Refuser"
   }
