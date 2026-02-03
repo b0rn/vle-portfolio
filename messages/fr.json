@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Victor Leveneur - Développeur Backend spécialisé en Cybersécurité & Infrastructure",
-    "description": "Portfolio de Victor Leveneur, développeur backend spécialisé dans les applications sécurisées, évolutives et l'architecture propre.",
-    "ogDescription": "Applications sécurisées et évolutives avec une architecture propre et des pratiques d'ingénierie de niveau production."
+    "description": "Portfolio de Victor Leveneur, développeur backend basé à Paris, France, spécialisé dans les applications sécurisées, évolutives et l'architecture propre.",
+    "ogDescription": "Développeur backend basé à Paris, France. Applications sécurisées et évolutives avec une architecture propre et des pratiques d'ingénierie de niveau production."
   },
   "nav": {
     "about": "À propos",
@@ -15,6 +15,7 @@
   "hero": {
     "greeting": "Bonjour, je suis Victor Leveneur",
     "title": "Développeur Backend spécialisé en Cybersécurité & Infrastructure",
+    "location": "Basé à Paris, France",
     "tagline": "Je construis des applications sécurisées et évolutives avec une architecture propre et des pratiques de niveau production. Ancien Tech Lead spécialisé en développement backend, DevOps et durcissement sécuritaire.",
     "viewWork": "Voir mes projets",
     "contact": "Me contacter"
@@ -109,7 +110,7 @@
       "company": "Black Pearl",
       "role": "Tech Lead & DevOps",
       "period": "2022 - 2025",
-      "description": "Direction d'équipes techniques sur des projets internes et externes. Participation au comité de direction. Conception et déploiement de systèmes de production, mise en œuvre de SIEM et de pratiques de durcissement sécuritaire, réduction des coûts opérationnels par l'automatisation.",
+      "description": "Direction d'équipes techniques sur des projets internes et externes. Participation au comité de direction. Conception et déploiement de systèmes de production incluant un monolithe Go de plus de 10k lignes, mise en œuvre de SIEM et de pratiques de durcissement sécuritaire, réduction des coûts opérationnels par l'automatisation.",
       "tech": "Apex, Python, Go, JavaScript, Kubernetes, Docker, AWS"
     },
     "lynred": {

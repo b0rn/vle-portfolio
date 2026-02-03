@@ -28,6 +28,11 @@ export default async function Home({
     jobTitle: t("title").split(" - ")[1],
     description: t("description"),
     email: "contact@vleveneur.com",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Paris",
+      addressCountry: "France",
+    },
     sameAs: [
       "https://github.com/b0rn",
       "https://gitlab.com/b0rn",

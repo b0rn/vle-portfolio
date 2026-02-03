@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Victor Leveneur - Backend Developer specializing in Cybersecurity & Infrastructure",
-    "description": "Portfolio of Victor Leveneur, a Backend Developer specializing in secure, scalable applications with clean architecture.",
-    "ogDescription": "Building secure, scalable applications with clean architecture and production-grade engineering."
+    "description": "Portfolio of Victor Leveneur, a Backend Developer based in Paris, France, specializing in secure, scalable applications with clean architecture.",
+    "ogDescription": "Backend Developer based in Paris, France. Building secure, scalable applications with clean architecture and production-grade engineering."
   },
   "nav": {
     "about": "About",
@@ -15,6 +15,7 @@
   "hero": {
     "greeting": "Hi, I'm Victor Leveneur",
     "title": "Backend Engineer specializing in Cybersecurity & Infrastructure",
+    "location": "Based in Paris, France",
     "tagline": "I build secure, scalable applications with clean architecture and production-grade engineering. Former Tech Lead specializing in backend development, DevOps, and security hardening.",
     "viewWork": "View My Work",
     "contact": "Contact Me"
@@ -109,7 +110,7 @@
       "company": "Black Pearl",
       "role": "Tech Lead & DevOps",
       "period": "2022 - 2025",
-      "description": "Led technical teams across internal and external projects. Sat at the executive commitee. Architected and deployed production systems, implemented SIEM and security hardening practices, and reduced operational costs through automation.",
+      "description": "Led technical teams across internal and external projects. Sat at the executive commitee. Architected and deployed production systems including a 10k+ lines Go monolith, implemented SIEM and security hardening practices, and reduced operational costs through automation.",
       "tech": "Java, Python, Go, JavaScript, Kubernetes, Docker, AWS"
     },
     "lynred": {
